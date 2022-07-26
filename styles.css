@@ -1,26 +1,43 @@
-/*
-font-family: 'Outfit', sans-serif;
-font weigths: 400 700;
-font-size: 15px;
-*/
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 
-
- :root {
-    /*Colors*/
-    --white: hsl(0, 0%, 100%)
-    -- grayLight: hsl(212, 45%, 89%)
-    --grayBlue: hsl(220, 15%, 55%)
-    --blueDark: hsl(218, 44%, 22%)
-    /*Fonts*/
-    --ff: 'Outfit', sans-serif;
-    --fw-reg: 400;
-    -fw-bold: 600;
-}
-
-*,
-::before,
-::after{
-    box-sizing: border-box;
+*{
     margin: 0;
     padding: 0;
+}
+
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%);
+    min-height: 100vh;
+    display:flex;
+    align-items: center;
+    font-size: 15px;
+}
+.container{
+    max-width: 360px;
+    margin:auto;
+    
+}
+.card{
+    background-color: hsl(0, 0%, 100%);
+    padding: 18px;
+    border-radius: 15px;
+    text-align: center;
+    margin: 1em;
+}
+    
+.card img{
+    width: 100%;
+    border-radius: 15px;
+}
+.text{
+padding: 22px 10px;
+}
+.text h2{
+    color:hsl(218, 44%, 22%);
+    padding-bottom: 15px;
+}
+
+.text p{
+    color:hsl(220, 15%, 55%);
 }
