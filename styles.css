@@ -19,7 +19,7 @@ body{
     font-size: 15px;
 }
 .container{
-    max-width: 360px;
+    max-width: 340px;
     margin:auto;
     
 }
@@ -38,9 +38,10 @@ body{
 .text{
 padding: 22px 10px;
 }
-.text h2{
+.text h1{
     color:var(--dark-blue);
     padding-bottom: 15px;
+    font-size: 20px;
 }
 
 .text p{
